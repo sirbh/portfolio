@@ -14,13 +14,13 @@ const About = () => {
             <div>
               <h3>Guru Gobind Singh Indraprasth University</h3>
               <p>Electronic and Commmunication Engineering</p>
-              <p>68.9%</p>
+              <p>2013-2017</p>
               <h3>New Green Field School</h3>
               <p>12th PCM</p>
-              <p>68.9%</p>
+              <p>2012</p>
               <h3>New Green Field School</h3>
               <p>10th</p>
-              <p>68.9%</p>
+              <p>2010</p>
             </div>
           </div>
           <div>
@@ -32,7 +32,9 @@ const About = () => {
               <h3>CSS 3</h3>
               <h3>Sass</h3>
               <h3>TypeScript</h3>
+              <h3>Angular 8</h3>
               <h3>Java 8</h3>
+              <h3>Embedded System Programming</h3>
               <h3>Spring Boot</h3>
               <h3>Databases</h3>
             </div>
@@ -54,7 +56,7 @@ const About = () => {
           <div>
             <h1>Time Chart</h1>
             <div>
-              <h3>This is how I spent my Time</h3>
+              <h3>This is how I spend my Time</h3>
               <Doughnut
                 data={{
                   labels: [
