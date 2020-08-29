@@ -1,0 +1,36 @@
+.Card
+{
+    p,a{  
+          position: absolute;;
+          z-index: 10;
+          transform: scale(0);
+          transition: all 1.3s ease;
+          color: white;
+          font-size: 20px;
+          padding: 15px;
+    }
+    a{
+        bottom: 0;
+        text-decoration: none;
+        color: black;
+        text-decoration:underline;
+        padding-bottom: 40px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    };
+
+
+}
+
+.Card:hover
+{
+    p,a{
+        display: inline;
+        transform: scale(1);
+    }
+
+}
+
+a:hover{
+    color: white;
+}

@@ -1,0 +1,13 @@
+.Main
+{
+    background-color: white;
+    transition: all 0.3s ease-in;
+    font-family: inherit;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+        background-color:#ef9b0f;
+    }
+}

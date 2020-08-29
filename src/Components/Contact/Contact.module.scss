@@ -1,0 +1,83 @@
+.Header {
+    width: 100%;
+    display: block;
+    height: 60px;
+    background-color: #333;
+    border-bottom: 2px solid #ffbc00;
+  }
+
+  .Content
+  {
+      background: url('../../Assets/Images/Contact.jpg') no-repeat right top/cover;
+      width: 100vw;
+      height: calc(100vh - 62px);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      box-sizing: border-box;
+      h1{
+          z-index: 2;
+          text-align:start;
+          width:48%;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          font-size: 40px;
+      }
+
+      span,a{
+          color: #ef9b0f;
+          margin-left: 20px;
+      }
+      a:hover{
+          color:blueviolet
+      }
+
+      a{
+          text-decoration: underline;
+      }
+
+    
+  }
+
+
+
+  .Content::before{
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      background-color: rgba($color: white, $alpha: 0.9);
+      right: 0;
+  }
+
+
+  @media only screen and (max-width: 768px)
+  {
+    .Content::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        background-color: rgba($color: white, $alpha: 0.9);
+        top: 40px;
+    }
+
+    .Content
+    {
+        justify-content: end;
+        background: url('../../Assets/Images/Contact.jpg') no-repeat  top/cover;
+        h1{
+            z-index: 2;
+            text-align:start;
+            width:100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        padding-left: 20px;
+        padding-top: 70px;
+    }
+  }
+
+  

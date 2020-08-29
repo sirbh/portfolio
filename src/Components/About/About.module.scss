@@ -1,0 +1,74 @@
+.Container {
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -12;
+}
+
+.Header {
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  border-bottom: 2px solid #ffbc00;
+  position: fixed;
+  z-index: -10;
+}
+
+.content {
+  color: #333;
+  position: absolute;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+  top: 70px;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #ffbc00;
+  }
+  z-index: -12;
+}
+
+.Discription {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+
+  flex-wrap: wrap;
+  height: 100%;
+  h1 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+
+.Discription > div {
+  box-sizing: border-box;
+  width: 23%;
+}
+
+.Discription > div > div {
+  margin: 10px;
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  padding-left: 20px;
+  border-left: 2px #ffbc00 solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .Discription {
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .Discription > div {
+    width: 100%;
+  }
+}

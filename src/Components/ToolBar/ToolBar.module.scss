@@ -1,0 +1,46 @@
+.Header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100vw;
+    height: 40px;
+    padding:0px 70px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.Logo
+{
+    width: 40px;
+    margin-top: 10px;
+    height: 100%;
+    color: white;
+}
+
+.NavItems
+{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0px;
+    li{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .NavItems{
+        display: none;
+    }
+
+    .Header
+    {
+        flex-direction: row-reverse;
+        padding:0px 20px 0px 20px;
+    }
+}
+
