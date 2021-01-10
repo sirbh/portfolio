@@ -9,6 +9,13 @@ import item6 from "../../Assets/Images/item6.jpg";
 import item7 from "../../Assets/Images/item7.png";
 import item8 from "../../Assets/Images/item8.jpg";
 import item9 from "../../Assets/Images/item9.png";
+import item10 from "../../Assets/Images/item10.png";
+import item11 from "../../Assets/Images/item11.png";
+import item12 from "../../Assets/Images/item12.png";
+import item13 from "../../Assets/Images/item13.png";
+import item14 from "../../Assets/Images/item14.png";
+import item15 from "../../Assets/Images/item15.png";
+import item16 from "../../Assets/Images/item16.png";
 import cssClasses from "./Cards.module.scss";
 
 const Div = Styled.div`
@@ -70,6 +77,11 @@ const arr = [
       'Project Planner App  can help in managing daily activities. Built using Javascript, HTML, CSS. User can simply drag and drop the project-items to manage daily tasks'
   },
   {
+    imgUrl: item14,
+    link: "https://sirbh.github.io/GridWebsite/",
+    description:"Grid website for hypothetical new channel built using CSS Grid and HTML"
+  },
+  {
     imgUrl: item5,
     description:
       "Text Extractor is a command line tool which can be used to extract text from multiple html files of same pattern. Built using Java and Regex. I made this tool at AuthBridge to automate the process of Text Extraction from HTML files",
@@ -79,6 +91,14 @@ const arr = [
     description:
       "PDFTool is a pdf processor with User-Interface built in ReactJS and Backed by Spring Boot and Java PDF box. User can add Bookmarks, Extract-text, Convert and Process multiple Pdf files.",
   },
+  
+ 
+  {
+    imgUrl: item15,
+    link: "https://sirbh.github.io/NeomorphicMusicPlayer/",
+    description:"Simple Music Player app with Screen to display the lyrics. Built using React JS. Sass is used to add neomorphic effect."
+    },
+    
   {
     imgUrl: item7,
     link: "https://sirbh.github.io/NeomorphicReactJSFormComponents/",
@@ -94,6 +114,31 @@ const arr = [
     description:
       "2DMapper and Radar system. This was my Final year Project built on Arduino Development Board. This electronic systems can create 2-D map of its surrounding which can be processed by matlab and Radar system which can locate and show detection of objects in 10 m range.",
   },
+  {
+    imgUrl: item10,
+    link: "https://sirbh.github.io/timeline/",
+    description:"Basic HTML Webiste for timline display with animation and lazy loading"
+  },
+  {
+    imgUrl: item11,
+    link: "https://sirbh.github.io/DropDown/",
+    description:"DropDown menu project built in HTML/CSS"
+  },
+  {
+    imgUrl: item12,
+    link: "https://sirbh.github.io/HamburgerMenu/",
+    description:"Responsive Hamburger menu for PC and mobile devices"
+  },
+  {
+    imgUrl: item13,
+    link: "https://sirbh.github.io/PresentationWebsite/",
+    description:"Presentation Website in HTML/CSS with animation"
+  },
+  {
+    imgUrl: item16,
+    link: "https://sirbh.github.io/CollegeDunia/",
+    description:"Infinite scrolling in React JS"
+  }
 ];
 
 const Cards = (props) => {

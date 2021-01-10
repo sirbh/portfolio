@@ -18,6 +18,7 @@ const ToolBar = ()=>
             <li onClick={toggleShow.bind(null,prevState=>{return !prevState })}><NavItem link ="About" path="/About"></NavItem></li>
             <li onClick={toggleShow.bind(null,prevState=>{return !prevState })}><NavItem link ="Projects" path="/Projects"></NavItem></li>
             <li onClick={toggleShow.bind(null,prevState=>{return !prevState })}><NavItem link ="Contact" path="/Contact"></NavItem></li>
+            <li onClick={toggleShow.bind(null,prevState=>{return !prevState })}><a className={cssClasses.DownLink} href="/app-debug.apk" download>Download Resume</a></li>
         </ul>
         </Menu>
      <header className={cssClasses.Header}>
@@ -27,6 +28,7 @@ const ToolBar = ()=>
             <li><NavItem link ="About" path="/About"></NavItem></li>
             <li><NavItem link ="Projects" path="/Projects"></NavItem></li>
             <li><NavItem link ="Contact" path="/Contact"></NavItem></li>
+            <li><a className={cssClasses.DownLink} href="/app-debug.apk" download>Download Resume</a></li>
         </ul>
     </header>
     </Fragment>

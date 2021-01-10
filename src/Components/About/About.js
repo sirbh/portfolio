@@ -26,7 +26,7 @@ const About = () => {
           <div>
             <h1>Skills</h1>
             <div>
-              <h3>React Js <span></span><span></span></h3>
+              {/* <h3>React Js <span></span><span></span></h3>
               <h3>Javascript</h3>
               <h3>HTML 5</h3>
               <h3>CSS 3</h3>
@@ -36,7 +36,20 @@ const About = () => {
               <h3>Java 8</h3>
               <h3>Embedded System Programming</h3>
               <h3>Spring Boot</h3>
+              <h3>Databases</h3> */}
+              <h3>FrontEnd</h3>
+              <p>Angular 8</p>
+              <p>React JS</p>
+              <p>HTML5/CSS/SCSS/Bootstrap</p>
+              <h3>BackEnd</h3>
+              <p>Node JS</p>
+              <p>Express JS</p>
+              <p>Payment Integration</p>
+              <p>Java 8</p>
+              <p>Spring Boot</p>
               <h3>Databases</h3>
+              <p>Mongo DB(Mongoose)</p>
+              <p>My SQL(sequelize)</p>
             </div>
           </div>
           <div>
