@@ -57,13 +57,13 @@ const About = () => {
             <div>
               <h3>Libsys</h3>
               <p>UI Developer</p>
-              <p>Jan-2020 --- April-2020</p>
+              <p>Jan-2020 --- June-2020</p>
               <h3>Authbridge</h3>
               <p>Java Developer</p>
-              <p>Dec-2018 --- Aug-2019</p>
+              <p>Sept-2018 --- Aug-2019</p>
               <h3>Global Educon</h3>
               <p>Software Trainee</p>
-              <p>June-2017 --- Dec-2018</p>
+              <p>Jan-2016 --- Aug-2018</p>
             </div>
           </div>
           <div>
